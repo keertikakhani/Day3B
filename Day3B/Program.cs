@@ -12,7 +12,9 @@ namespace Day3B
             Sum obj1 = new Sum(25);
             obj1.Print();
 
-           
+           Rectangle rectangle = new Rectangle();
+            rectangle.Draw();
+
             Console.ReadLine();
         }
 
