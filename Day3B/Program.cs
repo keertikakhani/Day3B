@@ -6,7 +6,13 @@ namespace Day3B
     {
         public static void Main(string[] args)
         {
+            Sum obj= new Sum();
+            obj.Print();
 
+            Sum obj1 = new Sum(25);
+            obj1.Print();
+
+           
             Console.ReadLine();
         }
 
